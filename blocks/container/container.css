@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    width: 100%;
+    max-width: 984px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      padding: 0 24px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      padding: 0 48px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .container {
+      padding: 0;
+    }
+  }

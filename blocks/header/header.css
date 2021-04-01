@@ -1,0 +1,33 @@
+.header {
+  font-family: "Inter", "Arial", "sans-serif";
+  color: #ffffff;
+  grid-template-columns: 1fr max-content max-content;
+  gap: 18px;
+  align-items: center;
+  /* padding: 28px 48px 56px 28px; */
+  display: grid;
+  max-width: 1184px;
+  margin: auto;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    /* padding: 28px 48px 48px 48px; */
+    max-width: 928px;
+    
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    /* padding: 28px 24px 48px 24px; */
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    /* padding: 16px 16px 48px 16px; */
+    max-width: 288px;
+  }
+}

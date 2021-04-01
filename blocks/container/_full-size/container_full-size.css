@@ -1,0 +1,28 @@
+
+.container_full-size {
+
+}
+
+@media (min-width: 320px) {
+    .container_full-size  {
+ padding: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container_full-size  {
+ padding: 0;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container_full-size  {
+  padding: 0 48px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container_full-size  {
+        padding: 0 148px;
+    }
+  }
