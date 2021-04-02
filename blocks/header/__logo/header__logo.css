@@ -1,13 +1,13 @@
 .header__logo {
     width: 142px;
-    height: 42px
+    height: 42px;
 }
 
 @media (min-width: 768px) {
     .header__logo {
       /* height: 264px; */
       width: 176px;
-      height: 52px
+      height: 52px;
     }
   }
   
