@@ -5,14 +5,14 @@
   font-size: 32px;
   line-height: 109%;
   text-align: center;
-  min-width: 288px;
+  max-width: 250px;
 }
 
 @media (min-width: 500px) {
   .cover__title {
     font-size: 72px;
     line-height: 106%;
-    min-width: 560px;
+    max-width: 560px;
   }
 }
 
