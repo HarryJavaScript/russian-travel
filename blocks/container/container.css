@@ -3,7 +3,6 @@
     flex-flow: column wrap;
     margin: auto;
     width: 100%;
-    max-width: 984px;
     padding: 0 16px;
     box-sizing: border-box;
   }
@@ -11,6 +10,7 @@
   @media (min-width: 768px) {
     .container {
       padding: 0 24px;
+      flex-direction: row; /*для футера на разрешениях от 768 */
     }
   }
   
@@ -23,5 +23,16 @@
   @media (min-width: 1280px) {
     .container {
       padding: 0;
+      
     }
+  }
+  
+
+
+  .container_small {
+    max-width: 984px;
+  }
+
+  .container_big {
+    max-width: 1184px;
   }

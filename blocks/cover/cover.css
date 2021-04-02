@@ -1,28 +1,10 @@
 .cover {
   font-family: "Inter", "Arial", "sans-serif";
-  max-width: 1184px;
+  /* max-width: 1184px; */
   color: #ffffff;
   display: block;
 }
 
-@media (min-width: 320px) {
-  .cover {
-    margin-bottom: 64px;
-  }
-}
-
-@media (min-width: 768px) {
-  .cover {
-    margin-bottom: 88px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover {
-
-    margin-bottom: 92px;
-  }
-}
 
 
 

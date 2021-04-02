@@ -16,27 +16,16 @@
   opacity: 0.8;
 }
 
-
-
 @media (min-width: 768px) {
   .footer__link {
     font-size: 16px;
     line-height: 112%;
-    font-weight: 400;
     margin-right: 18px;
+    margin-bottom: 0;
   }
 }
-
 
 @media (min-width: 1024px) {
   .footer__link {
   }
 }
-
-
-
-
-
-
-
-

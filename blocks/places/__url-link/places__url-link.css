@@ -1,7 +1,7 @@
 .places__url-link {
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 122%;
   text-decoration-line: underline;
   color: #ffffff;
   transition: opacity 0.3s ease-in-out;
@@ -10,4 +10,10 @@
 
 .places__url-link:hover {
   opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+  .places__url-link {
+    margin-bottom: 48px;
+  }
 }

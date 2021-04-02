@@ -2,7 +2,29 @@
   margin: 0;
   font-weight: 400;
   text-align: center;
-  white-space: pre-line;
-  font-size: 18px;
-  line-height: 109%;
+  font-size: 14px;
+  line-height: 114%;
+  
+}
+
+@media (min-width: 500px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 122%;
+    min-width: 360px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover__subtitle {
+   
+  }
+}
+
+
+
+@media (min-width: 1280px) {
+  .cover__subtitle {
+    
+  }
 }

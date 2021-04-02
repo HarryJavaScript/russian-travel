@@ -1,4 +1,25 @@
 .places {
   font-family: "Inter", "Arial", "sans-serif";
   color: #ffffff;
+  margin-bottom: 66px;
+}
+
+
+@media (min-width: 768px) {
+  .places {
+    margin-bottom: 90px;
+
+}
+
+@media (min-width: 1024px) {
+  .places {
+    margin-bottom: 92px;
+  
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+  
+  }
 }

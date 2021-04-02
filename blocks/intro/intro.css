@@ -1,4 +1,24 @@
 .intro {
   font-family: "Inter", "Arial", "sans-serif";
   color: #ffffff;
+  margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    margin-bottom: 88px;
+
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    margin-bottom: 92px;
+  
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+  
+  }
 }

@@ -1,16 +1,27 @@
 .lead {
   font-family: "Inter", "Arial", "sans-serif";
   color: #ffffff;
+  margin-bottom: 64px;
 }
 
-@media (max-width: 1280px) {
-
+@media (min-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
 }
 
-@media (max-width: 1024px) {
-
+@media (min-width: 1024px) {
+  .lead {
+    margin-bottom: 92px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1280px) {
+ .lead {
 
+ }
 }
+
+
+
+

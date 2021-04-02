@@ -2,14 +2,12 @@
   font-size: 14px;
   line-height: 100%;
   margin-bottom: 24px;
-
 }
 
 
 
 @media (min-width: 768px) {
   .footer__copyrights {
-    font-size: 14px;
     line-height: 114%;
     font-weight: 400;
   }

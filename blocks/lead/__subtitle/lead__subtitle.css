@@ -3,6 +3,7 @@ margin-bottom: 40px;
 font-weight: 400;
 font-size: 16px;
 line-height: 125%;
+max-width: 288px;
 
 
 
@@ -16,23 +17,7 @@ line-height: 125%;
     font-size: 30px;
     line-height: 120%;
     margin-bottom: 56px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lead__subtitle {
-    /* padding-bottom: 64px; */
-
- 
-  }
-}
-
-
-@media (min-width: 1280px) {
-  .lead__subtitle {
-
-  
-    
+    max-width: 640px;
   }
 }
 

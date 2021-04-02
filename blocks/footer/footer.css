@@ -2,6 +2,24 @@
   font-family: "Inter", "Arial", "sans-serif";
   color: #ffffff;
   max-width: 1184px;
+
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+  .footer {
+
+    flex-direction: row;
+
+
+    
+  }
 }
 
 

@@ -1,11 +1,19 @@
 .header__lang-link {
   font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 111%;
   color: #ffffff;
   text-decoration-line: underline;
 }
 
 .header__lang-link:last-child {
   text-decoration-line: none;
+}
+
+
+@media (min-width: 768px) {
+  .header__logo {
+    font-size: 24px;
+    line-height: 117%;
+  }
 }
