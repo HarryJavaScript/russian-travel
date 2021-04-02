@@ -24,6 +24,7 @@
     grid-template-rows: repeat(auto-fill, 225px);
     gap: 14px 14px;
   }
+}
 
 @media (min-width: 1280px) {
   .photo-grid {

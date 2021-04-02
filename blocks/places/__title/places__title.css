@@ -20,9 +20,11 @@
     font-size: 42px;
     line-height: 110%;
   }
+}
 
 @media (min-width: 1024px) {
   .places__title {
     font-size: 72px;
     line-height: 106%;
   }
+}

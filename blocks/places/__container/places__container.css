@@ -17,7 +17,6 @@
     grid-template-columns: 340px 1fr;
     grid-template-rows: repeat(2, max-content);
     margin-bottom: 72px;
-   
   }
 }
 
@@ -27,6 +26,8 @@
     /* grid-template-columns: minmax(100%, 340px), 1fr; */
     margin-bottom: 80px;
   }
+}
+
 
 @media (min-width: 1280px) {
   .places__container {

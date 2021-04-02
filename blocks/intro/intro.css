@@ -7,6 +7,15 @@
 @media (min-width: 768px) {
   .intro {
     margin-bottom: 88px;
+ }
+}
+
+@media (min-width: 1024px) {
+  .places__container {
+    grid-template-columns: 440px 1fr;
+    /* grid-template-columns: minmax(100%, 340px), 1fr; */
+    margin-bottom: 80px;
+  }
 }
 
 @media (min-width: 1024px) {
