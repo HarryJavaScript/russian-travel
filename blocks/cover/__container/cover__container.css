@@ -20,10 +20,4 @@
         margin-bottom: 92px;
     }
   }
-  
-  @media (min-width: 1280px) {
-    .cover__container {
-        /* padding: 0 48px; */
-      
-    }
-  }
+

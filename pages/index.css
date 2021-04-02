@@ -3,19 +3,14 @@
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/container/container.css);
-
 @import url(../blocks/container/_full-size/container_full-size.css);
 @import url(../blocks/container/_small/container_small.css);
 @import url(../blocks/container/_big/container_big.css);
 @import url(../blocks/container/_size-m/container__size-m.css);
 @import url(../blocks/container/size-l/container_size-l.css);
-
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
-
 @import url(../blocks/photo-grid/photo-grid.css);
-
-
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -23,14 +18,12 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list/_count/intro__list_count.css);
 @import url(../blocks/intro/__container/intro__container.css);
-
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__container/places__container.css);
@@ -40,16 +33,13 @@
 @import url(../blocks/places/__url-link/places__url-link.css);
 @import url(../blocks/places/__content/places__content.css);
 @import url(../blocks/places/__links/places__links.css);
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__container/cover__container.css);
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyrights/footer__copyrights.css);
 @import url(../blocks/footer/__links/footer__links.css);
-
