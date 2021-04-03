@@ -27,12 +27,10 @@
   }
 }
 
-
 @media (min-width: 1280px) {
   .places__container {
     grid-column-gap: 32px;
     grid-template-columns: 460px 1fr;
     /* grid-template-columns: minmax(100%, 460px), 1fr; */
- 
   }
 }

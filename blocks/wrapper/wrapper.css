@@ -1,22 +1,3 @@
 .wrapper {
-    background: #2A2C2F;
+  background: #2a2c2f;
 }
-
-
-/* @media (max-width: 1280px) {
-    .wrapper {
-      max-width: 1024x;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .wrapper {
-      max-width: 768px;
-    }
-  }
-  
-  @media (min-width: 720px) {
-    .wrapper {
-      min-width: 320px;
-    }
-  } */

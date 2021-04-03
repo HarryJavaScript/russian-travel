@@ -12,26 +12,15 @@
 
 @media (min-width: 768px) {
   .intro__title {
-font-size: 54px;
-line-height: 107%;
-max-width: 720px;
-padding-bottom: 40px;
+    font-size: 54px;
+    line-height: 107%;
+    max-width: 720px;
+    padding-bottom: 40px;
   }
 }
 
 @media (min-width: 1024px) {
   .intro__title {
-  
     max-width: 690px;
   }
 }
-
-@media (min-width: 1280px) {
-  .intro__title {
-  
-  }
-}
-
-
-
-

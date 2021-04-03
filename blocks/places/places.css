@@ -4,11 +4,10 @@
   margin-bottom: 66px;
 }
 
-
 @media (min-width: 768px) {
   .places {
     margin-bottom: 90px;
- }
+  }
 }
 
 @media (min-width: 1024px) {
