@@ -7,11 +7,6 @@
 @media (min-width: 768px) {
   .footer__copyrights {
     line-height: 114%;
-    font-weight: 400;
-  }
-}
-
-@media (min-width: 1024px) {
-  .footer__copyrights {
+    font-weight: 400;   
   }
 }
