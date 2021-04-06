@@ -1,14 +1,14 @@
 .lead__container {
-  margin: auto;
-  max-width: 984px;
+  
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-
 
 @media (min-width: 1024px) {
   .lead__container {
@@ -19,5 +19,36 @@
 @media (min-width: 1280px) {
   .lead__container {
     padding: 0;
+    margin: auto;
+    max-width: 984px;
   }
 }
+
+
+/* .container {
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 24px;
+    flex-direction: row; для футера на разрешениях от 768 
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding: 0;
+  }
+} */

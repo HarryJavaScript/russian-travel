@@ -3,16 +3,32 @@
   color: #ffffff;
   margin-bottom: 64px;
   max-width: 984px;
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
   .intro {
     margin-bottom: 88px;
+    padding: 0 24px;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
     margin-bottom: 92px;
+    padding: 0 48px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .intro {
+    padding: 0;
   }
 }
