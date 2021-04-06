@@ -1,11 +1,11 @@
 .lead__subtitle {
   margin-bottom: 40px;
+  margin-block-start: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 125%;
   max-width: 288px;
   text-align: center;
-  white-space: pre-line;
 }
 
 @media (min-width: 768px) {

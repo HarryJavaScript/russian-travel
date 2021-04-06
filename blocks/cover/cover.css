@@ -1,6 +1,24 @@
 .cover {
   font-family: "Inter", "Arial", "sans-serif";
-  /* max-width: 1184px; */
   color: #ffffff;
-  display: block;
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 100%;
+  max-width: 1184px;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
+  }
 }

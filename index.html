@@ -8,39 +8,38 @@
   <title>Путешествия по России</title>
 </head>
 
-<body>
-  <main class="wrapper">
+<body class="wrapper">
+  
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия">
-      <a class="header__lang-link">Ru</a>
-      <a class="header__lang-link">En</a>
+      <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+      <a class="header__lang-link " href="#">En</a>
     </header>
+    <main>
     <section class="lead">
       <!-- Первый блок с фото -->
-      <div class="lead__container container container_small container_size-l">
+      <div class="lead__container container">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/lead-polka.jpg" alt="Фото в поезде" />
-        <p class="lead__caption container">ваша полка - верхняя</p>
+        <img class="lead__image" src="./images/lead-polka.jpg" alt="Фото в поезде">
+        <p class="lead__caption">ваша полка - верхняя</p>
       </div>
     </section>
-    <section class="intro">
+    <section class="intro container">
       <!-- Второй блок с данными -->
-      <div class="container container_small">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__list_count">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_count">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_count">16</span></li>
+          <li>Природных заповедников <span class="intro__list_count">105</span></li>
+          <li>Аэропортов <span class="intro__list_count">241</span></li>
         </ul>
-      </div>
     </section>
-    <div class="photo-grid container container_big">
+    <section class="photo-grid container">
       <!-- Третий блок с фотоплиткой -->
       <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Из поезда">
       <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Облака">
@@ -54,10 +53,10 @@
       <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
       <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
       <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="В горах">
-    </div>
+    </section>
     <section class="places">
       <!-- Четвёртый блок с описанием мест -->
-      <div class="places__content container container_small container_size-m">
+      <div class="places__content container">
         <div class="places__container">
           <h3 class="places__title">Куршская коса</h3>
           <div class="places__links">
@@ -106,65 +105,51 @@
           <h3 class="places__title">Зимний Байкал</h3>
           <div class="places__links">
             <span class="places__url-heading">url</span>
-            <a class="places__url-link" href="https://vk.com/baikalmile/" target="_blank">https://vk.com/baikalmile</a
-            >
+            <a class="places__url-link" href="https://vk.com/baikalmile/" target="_blank">https://vk.com/baikalmile</a>
           </div>
-            <img
-              class="places__image"
-              src="./images/place-winter-baikal.jpg"
-              alt="Зимний Байкал"
-            />
-            <p class="places__paragraph">
-              Всем известен Байкал как крупнейшее озеро в мире. Многие также
-              знают, что это самый большой источник пресной воды и одно из
-              красивейших мест в России.
-            </p>
-            <p class="places__paragraph">
-              Конечно, это всё так. Но Байкал ещё идеальное место
-              для соревнований по скийорингу. Это такой вид спорта, когда лыжник
-              привязывает себя к мотоциклу, и тандем старается развить как можно
-              бóльшую скорость на льду. В марте 2019 года на фестивале
-              «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
-            </p>
-            </div>
-            <div class="places__container">
-              <h3 class="places__title">Карелия</h3>
-              <div class="places__links">
-              <span class="places__url-heading">url</span>
-              <a class="places__url-link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
-            </div>
-              <img
-                class="places__image"
-                src="./images/place-karelia.jpg"
-                alt="Карелия"
-              />
-              <p class="places__paragraph">
-                Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
-                сибирская лиственница не растёт западнее Водлозера. Зато здесь она
-                вымахивает на 30 метров — леса карельских национальных парков
-                из-за непроходимых болот никогда не знали топора. Некоторым соснам
-                уже больше чем полтысячелетия. Прикоснитесь к живому существу,
-                видевшему солнце раньше, чем увидал его Иван Грозный. В
-                девственном лесу на сотню километров не встретишь тропы. А на
-                редких тропинках деревья в паре метров от земли помечены
-                медвежьими когтями. Чтобы все знали, кто тут хозяин.
-              </p>
-            </div>
+          <img class="places__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
+          <p class="places__paragraph">
+            Всем известен Байкал как крупнейшее озеро в мире. Многие также
+            знают, что это самый большой источник пресной воды и одно из
+            красивейших мест в России.
+          </p>
+          <p class="places__paragraph">
+            Конечно, это всё так. Но Байкал ещё идеальное место
+            для соревнований по скийорингу. Это такой вид спорта, когда лыжник
+            привязывает себя к мотоциклу, и тандем старается развить как можно
+            бóльшую скорость на льду. В марте 2019 года на фестивале
+            «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+          </p>
+        </div>
+        <div class="places__container">
+          <h3 class="places__title">Карелия</h3>
+          <div class="places__links">
+            <span class="places__url-heading">url</span>
+            <a class="places__url-link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
+          </div>
+          <img class="places__image" src="./images/place-karelia.jpg" alt="Карелия">
+          <p class="places__paragraph">
+            Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
+            сибирская лиственница не растёт западнее Водлозера. Зато здесь она
+            вымахивает на 30 метров — леса карельских национальных парков
+            из-за непроходимых болот никогда не знали топора. Некоторым соснам
+            уже больше чем полтысячелетия. Прикоснитесь к живому существу,
+            видевшему солнце раньше, чем увидал его Иван Грозный. В
+            девственном лесу на сотню километров не встретишь тропы. А на
+            редких тропинках деревья в паре метров от земли помечены
+            медвежьими когтями. Чтобы все знали, кто тут хозяин.
+          </p>
+        </div>
         </div>
         </section>
         <section class="cover">
-          <div class="cover__container">
-          <a class="cover__link"
-            href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
+            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           </a>
-        </div>
         </section>
-        <footer class="footer container container_big">
+        </main>
+        <footer class="footer container">
           <nav class="footer__links">
             <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
             <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
@@ -172,9 +157,9 @@
             <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
             <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
           </nav>
-          <span class="footer__copyrights">&copy; 2021. Гарри Ткаченко</span>
+          <p class="footer__copyrights">&copy; 2021. Гарри Ткаченко</p>
         </footer>
-  </main>
+  
 </body>
   
 </html>

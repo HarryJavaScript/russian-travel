@@ -1,12 +1,9 @@
 .header__lang-link {
   font-weight: normal;
+  font-style: normal;
   font-size: 18px;
   line-height: 111%;
   color: #ffffff;
-  text-decoration-line: underline;
-}
-
-.header__lang-link:last-child {
   text-decoration-line: none;
 }
 
