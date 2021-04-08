@@ -16,20 +16,20 @@
     margin-bottom: 88px;
     grid-template-columns: repeat(auto-fill, minmax(100px, 352px));
     grid-template-rows: repeat(auto-fill, 264px);
-    margin-left: 24px;
-    margin-right: 24px;
+    /* margin-left: 24px;
+    margin-right: 24px; */
     gap: 16px 16px;
   }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   .photo-grid {
     margin-bottom: 92px;
     grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
     grid-template-rows: repeat(auto-fill, 225px);
     gap: 14px 14px;
-    margin-left: 48px;
-    margin-right: 48px;
+    /* margin-left: 48px;
+    margin-right: 48px; */
   }
 }
 
