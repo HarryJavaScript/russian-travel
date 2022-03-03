@@ -1,15 +1,23 @@
 .intro {
   font-family: "Inter", "Arial", "sans-serif";
   color: #ffffff;
-  margin-bottom: 64px;
-  max-width: 984px;
   display: flex;
   flex-flow: column wrap;
+  margin-bottom: 64px;
+  margin: auto;
+  max-width: 984px;
+  align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   padding: 0 16px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+}
+
+@media (max-width: 767px) {
+  .intro {
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -23,8 +31,6 @@
 
   .intro {
     margin-bottom: 92px;
-    margin-left: 0;
-    margin-right: 0;
     padding: 0 48px;
   }
 }
